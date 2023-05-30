@@ -1,0 +1,12 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Serie A"
+    },
+    {
+      "id": 2,
+      "name": "Serie B"
+    }
+  ]
+}

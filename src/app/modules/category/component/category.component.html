@@ -1,0 +1,10 @@
+<div class="container d-flex flex-column justify-content-center align-items-center vh-100">
+  <div class="container_title">
+    <h2>Seleziona categoria</h2>
+  </div>
+  <div class="container_select">
+    <select class="form-select" style="width: 300px;">
+      <option *ngFor="let category of categories$ | async" [value]="category.name">{{ category.name }}</option>    
+    </select>
+  </div>
+</div>

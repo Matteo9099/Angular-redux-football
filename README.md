@@ -1,1 +1,4 @@
-# Angular-redux-football
+- Use JSON Serve to create API.
+- Created a store for categories(Serie A, Serie B) that includes id and name.
+- Organized application state(Actions, Effects, Reducers, Selectors).
+- Create a service and store for manage the status.
