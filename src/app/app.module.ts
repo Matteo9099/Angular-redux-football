@@ -8,11 +8,13 @@ import { EffectsModule } from '@ngrx/effects';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { environment } from 'src/environments/environment';
 import { HttpClientModule } from '@angular/common/http';
-import { appReducer } from './@core/services/store/app.reducer';
+import { appReducer } from './@core/store/app.reducer';
+import { SerieAComponent } from './modules/serieA/components/serie-a.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SerieAComponent
   ],
   imports: [
     BrowserModule,

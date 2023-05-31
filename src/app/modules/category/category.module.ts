@@ -7,6 +7,7 @@ import { StoreModule } from '@ngrx/store';
 import { categoryReducer } from './store/reducers/category.reducers';
 import { EffectsModule } from '@ngrx/effects';
 import { CategoryEffects } from './store/effects/category.effects';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -15,6 +16,7 @@ import { CategoryEffects } from './store/effects/category.effects';
   ],
   imports: [
     CommonModule,
+    FormsModule,
     CategoryRoutingModule,
     StoreModule.forFeature("mycategories", categoryReducer),
     EffectsModule.forFeature([CategoryEffects])

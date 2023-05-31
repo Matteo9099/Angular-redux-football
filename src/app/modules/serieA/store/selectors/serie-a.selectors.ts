@@ -1,0 +1,2 @@
+export class SerieA.Selectors {
+}
