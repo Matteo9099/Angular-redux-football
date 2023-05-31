@@ -2,3 +2,4 @@
 - Created a store for categories(Serie A, Serie B) that includes id and name.
 - Organized application state(Actions, Effects, Reducers, Selectors).
 - Create a service and store for manage the status.
+- created the store for Serie A and for teams.
